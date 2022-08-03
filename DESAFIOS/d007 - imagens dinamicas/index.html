@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessafio 07</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>
+        Você está vendo uma imagem completa? <br>
+        experimente alterar o tamanho de sua tela &#x1F92F
+    </p>
+    <picture>
+        <source media="(max-width:740px )" srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width:1200px )" srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="">
+    </picture>
+</body>
+</html>

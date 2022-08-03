@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>
+        Tente abrir esse site em dispositivos diferentes
+    </p>
+
+    <picture>
+        <source media="(max-width:700px )" srcset="pequeno.png" type="image/png">
+        <source media="(max-width:1000px )" srcset="medio.png" type="image/png">
+        <img src="grande.png" alt="Imagem flexivél">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>
+        Vamos aprender a reproduzir áudios em HTML5 <br>
+        <audio src="The Moor.mp3"controls autoplay></audio>
+    </p>
+</body>
+</html>
