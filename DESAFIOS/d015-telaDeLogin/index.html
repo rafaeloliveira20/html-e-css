@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/midiaquery.css">
 </head>
 <body>
     <main>
@@ -19,7 +20,19 @@
                     Seja bem-vindo(a) novamente.Faça o login para acessar sua conta e fazer as configurações no seu ambiente.
                 </p>
                 <form action=""method ="post">
-                    
+                    <div class="campo">
+                        
+                        <input type="email" name="login" id="idlogin" placeholder="seu email" required>
+                        <label for="ilogin">Login</label>
+
+                    </div>
+                    <div class="campo">
+                        
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required>
+                        <label for="isenha">senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <button>esqueci a senha</button>
                 </form>
 
             </div>
